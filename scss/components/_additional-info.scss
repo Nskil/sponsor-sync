@@ -1,0 +1,84 @@
+.additional-info {
+  padding: 40px 0;
+  @media (max-width: 575px) {
+    padding: 40px 22px;
+  }
+
+  .additional-info-title {
+    font-size: 32px;
+    padding-bottom: 32px;
+    font-family: "Open Sans Semi Bold", sans-serif;
+    font-weight: 600;
+
+    @media (max-width: 575px) {
+      font-size: 14px;
+    }
+  }
+
+  .additional-info-description {
+    font-size: 22px;
+    color: #818181;
+    @media (max-width: 575px) {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .contact-block {
+    h5 {
+      font-size: 18px;
+      color: #818181;
+      padding: 2px 0 0 0;
+      margin: 0;
+      font-family: "Open Sans Semi Bold", sans-serif;
+      font-weight: 600;
+
+      @media (max-width: 575px) {
+        font-size: 12px;
+      }
+    }
+
+    p {
+      padding: 2px 0 0 0;
+      color: #818181;
+      a {
+        color: #818181;
+      }
+      font-size: 18px;
+      margin: 0;
+      @media (max-width: 575px) {
+        font-size: 12px;
+      }
+
+      span {
+        padding: 0;
+        color: #FF7E07;
+      }
+    }
+
+    .contact-block-item {
+      margin-bottom: 24px;
+
+      .social-icon {
+        padding: 0 7px 0 0;
+      }
+    }
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+    color: #A5A5A5;
+    font-family: "Open Sans Semi Bold", sans-serif;
+    font-weight: 600;
+
+    @media (max-width: 575px) {
+      font-size: 18px;
+    }
+
+    span {
+      color: #FF7E07;
+      font-family: "Open Sans Bold", sans-serif;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.approach {
+  img {
+    width: 100%;
+    @media (max-width: 767px) {
+      width: auto;
+    }
+    @media (max-width: 575px) {
+      height: 254px;
+    }
+  }
+  padding: 40px 0;
+  @media (max-width: 575px) {
+    padding: 40px 22px;
+  }
+  .approach-title {
+    padding-bottom: 34px;
+    font-size: 32px;
+    font-family: "Open Sans Semi Bold", sans-serif;
+    font-weight: 600;
+    @media (max-width: 575px) {
+      font-size: 14px;
+    }
+  }
+  .sponsorship-description {
+    font-size: 22px;
+    @media (max-width: 575px) {
+      font-size: 14px;
+    }
+  }
+}

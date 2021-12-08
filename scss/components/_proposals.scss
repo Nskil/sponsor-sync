@@ -1,0 +1,41 @@
+.proposals {
+  padding: 40px 0 140px;
+  @media (max-width: 575px) {
+    padding: 40px 22px 0px;
+  }
+
+  .proposals-title {
+    font-size: 32px;
+    padding-bottom: 34px;
+    font-family: "Open Sans Semi Bold", sans-serif;
+    font-weight: 600;
+    @media (max-width: 575px) {
+      font-size: 14px;
+      padding-bottom: 22px;
+    }
+  }
+
+  .proposals-description {
+    font-size: 22px;
+    padding-bottom: 70px;
+    margin: 0;
+    @media (max-width: 575px) {
+      font-size: 14px;
+      padding-bottom: 24px;
+    }
+  }
+
+  .proposal-block {
+    p {
+      @media (max-width: 575px) {
+        font-size: 14px;
+      }
+    }
+    img.proposal-icon {
+      padding-bottom: 18px;
+      @media (max-width: 575px) {
+        width: 32px;
+      }
+    }
+  }
+}
